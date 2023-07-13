@@ -58,12 +58,13 @@ class VdjdbDataset:
     @staticmethod
     def get_test_data(vdj_epi_dict, classlabel):
         test_data_arr = list()
-        test_vdj_arr = random.sample(vdj_epi_dict.keys(), 100)
+        test_vdj_arr = random.sample(list(vdj_epi_dict.keys()), 100)
         for vdj_key in test_vdj_arr:
             vdj_key_out = ",".join(re.split("#", vdj_key))
             epi_arr = list(vdj_epi_dict[vdj_key].keys())
-            test_data_arr.append(vdj_key_out + "," + epi_arr[0] + "," + classlabel)
-            vdj_epi_dict[vdj_key].pop(epi_arr[0], None)
+            selected_epi_arr = random.sample(epi_arr, 1)
+            test_data_arr.append(vdj_key_out + "," + selected_epi_arr[0] + "," + classlabel)
+            del vdj_epi_dict[vdj_key][selected_epi_arr[0]]
 
         return [vdj_epi_dict, test_data_arr]
 

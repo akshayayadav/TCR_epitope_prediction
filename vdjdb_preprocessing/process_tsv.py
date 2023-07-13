@@ -34,3 +34,9 @@ class VdjdbTsv:
         vdj_df['V-CDR3-J'] = vdj_df['V_seq'].map(str)+vdj_df['CDR3'].map(str)+vdj_df['J_seq']
 
         return vdj_df
+
+    def get_epitope_df(self):
+        epi_df = self.vdj_df[['Epitope', 'Epitope gene', 'Epitope species']]
+        epi_df = epi_df.drop_duplicates(subset=['Epitope'], ignore_index=True)
+        return epi_df
+
