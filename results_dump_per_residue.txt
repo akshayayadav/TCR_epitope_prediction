@@ -1,0 +1,377 @@
+batch size = 200
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg1.csv
+Epoch4**Testing**(array([0.99043944, 0.93034826]), array([0.99594602, 0.84922797]), array([0.9931851 , 0.88793922]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg2.csv
+Epoch4**Testing**(array([0.99554475, 0.29122116]), array([0.85411479, 0.9400545 ]), array([0.91942271, 0.44468314]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg3.csv
+Epoch4**Testing**(array([0.99736241, 0.80795715]), array([0.9854636 , 0.95912807]), array([0.9913773 , 0.87707641]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg4.csv
+Epoch4**Testing**(array([0.99859895, 0.86995153]), array([0.99067586, 0.97820163]), array([0.99462162, 0.92090637]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg5.csv
+Epoch4**Testing**(array([0.99743096, 0.85173247]), array([0.98934384, 0.96003633]), array([0.99337094, 0.90264731]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg6.csv
+Epoch4**Testing**(array([0.99809094, 0.987061  ]), array([0.9991892 , 0.97002725]), array([0.99863977, 0.97847   ]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg7.csv
+Epoch4**Testing**(array([0.99578205, 0.96889727]), array([0.99808884, 0.93369664]), array([0.99693411, 0.95097132]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg8.csv
+Epoch4**Testing**(array([0.99918779, 0.96109637]), array([0.99745179, 0.98728429]), array([0.99831904, 0.97401434]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg9.csv
+Epoch4**Testing**(array([0.99174984, 0.92560386]), array([0.99554063, 0.87011807]), array([0.99364162, 0.89700375]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg10.csv
+Epoch4**Testing**(array([0.99557313, 0.71949509]), array([0.97683442, 0.93188011]), array([0.98611477, 0.81203008]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg11.csv
+Epoch4**Testing**(array([0.99728088, 0.97322253]), array([0.9983205 , 0.95731153]), array([0.99780042, 0.96520147]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg12.csv
+Epoch4**Testing**(array([0.99895646, 0.96782842]), array([0.9979151 , 0.98365123]), array([0.99843551, 0.97567568]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg13.csv
+Epoch4**Testing**(array([0.99785383, 0.94326241]), array([0.99629351, 0.96639419]), array([0.99707306, 0.9546882 ]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg14.csv
+Epoch4**Testing**(array([0.99877637, 0.89552239]), array([0.99270284, 0.98092643]), array([0.99573034, 0.93628088]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg15.csv
+Epoch4**Testing**(array([0.99953631, 0.98026906]), array([0.99872589, 0.99273388]), array([0.99913094, 0.98646209]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg16.csv
+Epoch4**Testing**(array([0.9986074 , 0.94973545]), array([0.99669891, 0.97820163]), array([0.99765224, 0.96375839]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg17.csv
+Epoch4**Testing**(array([0.99843378, 0.95128432]), array([0.99681473, 0.97547684]), array([0.9976236, 0.9632287]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg18.csv
+Epoch4**Testing**(array([0.99913043, 0.97137746]), array([0.99814675, 0.98637602]), array([0.99863835, 0.97881929]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg19.csv
+Epoch4**Testing**(array([0.99918614, 0.932247  ]), array([0.9954248 , 0.98728429]), array([0.99730192, 0.95897662]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg20.csv
+Epoch4**Testing**(array([0.99877736, 0.90604027]), array([0.99351364, 0.98092643]), array([0.99613855, 0.94199738]), array([17267,  1101], dtype=int64))
+
+######################################################################################################################################################
+batch size = 500
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg1.csv
+Epoch4**Testing**(array([0.99025431, 0.90749757]), array([0.99449818, 0.84650318]), array([0.99237171, 0.87593985]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg2.csv
+Epoch4**Testing**(array([0.99652062, 0.3676264 ]), array([0.89569699, 0.95095368]), array([0.9434227 , 0.53026083]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg3.csv
+Epoch4**Testing**(array([0.99710505, 0.7295423 ]), array([0.97741356, 0.955495  ]), array([0.98716111, 0.82736925]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg4.csv
+Epoch0**Testing**(array([0.99803434, 0.99626517]), array([0.99976834, 0.96911898]), array([0.99890059, 0.9825046 ]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg5.csv
+Epoch0**Testing**(array([0.99612829, 0.97271872]), array([0.9983205 , 0.93914623]), array([0.99722319, 0.95563771]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg6.csv
+Epoch0**Testing**(array([0.99757141, 0.98603352]), array([0.99913129, 0.96185286]), array([0.99835074, 0.9737931 ]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg7.csv
+Epoch0**Testing**(array([0.99583622, 0.9563197 ]), array([0.99727804, 0.9346049 ]), array([0.99655661, 0.94533762]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg8.csv
+Epoch0**Testing**(array([0.99959392, 0.96814159]), array([0.9979151 , 0.99364214]), array([0.9987538 , 0.98072613]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg9.csv
+Epoch4**Testing**(array([0.99268548, 0.85376532]), array([0.99032837, 0.88555858]), array([0.99150552, 0.86937138]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg10.csv
+Epoch0**Testing**(array([0.99422032, 0.93902439]), array([0.99623559, 0.90917348]), array([0.99522694, 0.92385787]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg11.csv
+Epoch0**Testing**(array([0.99675343, 0.93386953]), array([0.99571437, 0.94913715]), array([0.99623363, 0.94144144]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg12.csv
+Epoch0**Testing**(array([0.99878091, 0.94570928]), array([0.99640934, 0.98092643]), array([0.99759371, 0.96299599]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg13.csv
+Epoch0**Testing**(array([0.99785283, 0.93661972]), array([0.9958302 , 0.96639419]), array([0.99684049, 0.95127403]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg14.csv
+Epoch0**Testing**(array([0.9975693 , 0.97245179]), array([0.99826258, 0.96185286]), array([0.99791582, 0.96712329]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg15.csv
+Epoch0**Testing**(array([0.9993605 , 0.93401885]), array([0.99554063, 0.99000908]), array([0.99744691, 0.96119929]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg16.csv
+Epoch0**Testing**(array([0.99860506, 0.92605331]), array([0.9950194 , 0.97820163]), array([0.996809  , 0.95141343]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg17.csv
+Epoch0**Testing**(array([0.99808662, 0.95272079]), array([0.99693056, 0.97002725]), array([0.99750826, 0.96129613]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg18.csv
+Epoch0**Testing**(array([0.9995361 , 0.97328584]), array([0.99826258, 0.99273388]), array([0.99889893, 0.98291367]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg19.csv
+Epoch0**Testing**(array([0.99912937, 0.95346795]), array([0.99693056, 0.98637602]), array([0.99802876, 0.96964286]), array([17267,  1101], dtype=int64))
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg20.csv
+Epoch0**Testing**(array([0.99883484, 0.89858687]), array([0.9929345, 0.9818347]), array([0.99587593, 0.93836806]), array([17267,  1101], dtype=int64))
+
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg1.csv
+Epoch4**Testing**(array([0.99039457, 0.95112016]), array([0.99722013, 0.84831971]), array([0.99379563, 0.89678349]), array([17267,  1101], dtype=int64))
+
+##############################################################################################################################
+
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg1.csv
+Epoch6**Testing**(array([0.99891044, 0.1292517 ]), array([0.95553085, 0.86363636]), array([0.97673923, 0.22485207]), array([14392,   110], dtype=int64))
+Best Epoch:5Best Training loss:0.06592972984967324Best Validation loss0.02943618075080114
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg2.csv
+Epoch18**Testing**(array([0.99921986, 0.24626866]), array([0.97894664, 0.9       ]), array([0.98897936, 0.38671875]), array([14392,   110], dtype=int64))
+Best Epoch:17Best Training loss:0.01791466635997705Best Validation loss0.006206271165621834
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg3.csv
+Epoch11**Testing**(array([0.99950901, 0.42040816]), array([0.99013341, 0.93636364]), array([0.99479912, 0.58028169]), array([14392,   110], dtype=int64))
+Best Epoch:10Best Training loss:0.012658201598018847Best Validation loss0.007008213506649674
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg4.csv
+Epoch10**Testing**(array([0.99937478, 0.94392523]), array([0.9995831 , 0.91818182]), array([0.99947893, 0.93087558]), array([14392,   110], dtype=int64))
+Best Epoch:9Best Training loss:0.008694166441161472Best Validation loss0.00735875531689787
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg5.csv
+Epoch15**Testing**(array([0.99860879, 0.71428571]), array([0.99749861, 0.81818182]), array([0.99805339, 0.76271186]), array([14392,   110], dtype=int64))
+Best Epoch:14Best Training loss:0.005932044408528235Best Validation loss0.008045926929251386
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg6.csv
+Epoch11**Testing**(array([0.99964873, 0.39179104]), array([0.98867426, 0.95454545]), array([0.99413121, 0.55555556]), array([14392,   110], dtype=int64))
+Best Epoch:10Best Training loss:0.008359746904642102Best Validation loss0.006029342133308277
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg7.csv
+Epoch7**Testing**(array([0.99951338, 0.88034188]), array([0.99902724, 0.93636364]), array([0.99927025, 0.90748899]), array([14392,   110], dtype=int64))
+Best Epoch:6Best Training loss:0.03335294411750794Best Validation loss0.013532869255356126
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg8.csv
+Epoch11**Testing**(array([0.99972129, 0.70666667]), array([0.99694275, 0.96363636]), array([0.99833009, 0.81538462]), array([14392,   110], dtype=int64))
+Best Epoch:10Best Training loss:0.004271194742566116Best Validation loss0.003909407030651288
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg9.csv
+Epoch6**Testing**(array([0.99963716, 0.14542936]), array([0.95712896, 0.95454545]), array([0.97792134, 0.25240385]), array([14392,   110], dtype=int64))
+Best Epoch:5Best Training loss:0.05355980536473273Best Validation loss0.021969138836003328
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg10.csv
+Epoch7**Testing**(array([0.99992995, 0.48230088]), array([0.99187048, 0.99090909]), array([0.99588391, 0.64880952]), array([14392,   110], dtype=int64))
+Best Epoch:6Best Training loss:0.03505996182920259Best Validation loss0.009335359299661129
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg11.csv
+Epoch3**Testing**(array([1.       , 0.6918239]), array([0.99659533, 1.        ]), array([0.99829476, 0.81784387]), array([14392,   110], dtype=int64))
+Best Epoch:2Best Training loss:0.07783665737280479Best Validation loss0.020558518259764805
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg12.csv
+Epoch12**Testing**(array([0.9996514 , 0.66037736]), array([0.99624792, 0.95454545]), array([0.99794675, 0.78066914]), array([14392,   110], dtype=int64))
+Best Epoch:11Best Training loss:0.00634504090815496Best Validation loss0.003099108078824271
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg13.csv
+Epoch1**Testing**(array([0.99979078, 0.65644172]), array([0.99610895, 0.97272727]), array([0.99794647, 0.78388278]), array([14392,   110], dtype=int64))
+Best Epoch:0Best Training loss:0.33089551609009504Best Validation loss0.07267938559390094
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg14.csv
+Epoch8**Testing**(array([0.9996491 , 0.41501976]), array([0.98971651, 0.95454545]), array([0.99465801, 0.5785124 ]), array([14392,   110], dtype=int64))
+Best Epoch:7Best Training loss:0.014873266271832917Best Validation loss0.009531662547450564
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg15.csv
+Epoch15**Testing**(array([0.99972187, 0.88333333]), array([0.99902724, 0.96363636]), array([0.99937444, 0.92173913]), array([14392,   110], dtype=int64))
+Best Epoch:14Best Training loss:0.0015456646419187644Best Validation loss0.0015901556557212364
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg16.csv
+Epoch8**Testing**(array([0.99993021, 0.62643678]), array([0.9954836 , 0.99090909]), array([0.99770195, 0.76760563]), array([14392,   110], dtype=int64))
+Best Epoch:7Best Training loss:0.009449247569074599Best Validation loss0.0022784808958794486
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg17.csv
+Epoch4**Testing**(array([1.        , 0.54726368]), array([0.99367704, 1.        ]), array([0.99682849, 0.7073955 ]), array([14392,   110], dtype=int64))
+Best Epoch:3Best Training loss:0.031441263306257114Best Validation loss0.007422129401924369
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg18.csv
+Epoch4**Testing**(array([0.99993035, 0.75694444]), array([0.99756809, 0.99090909]), array([0.99874783, 0.85826772]), array([14392,   110], dtype=int64))
+Best Epoch:3Best Training loss:0.013349420909575062Best Validation loss0.0025398232398015663
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg19.csv
+Epoch8**Testing**(array([0.99986034, 0.59340659]), array([0.99485825, 0.98181818]), array([0.99735302, 0.73972603]), array([14392,   110], dtype=int64))
+Best Epoch:7Best Training loss:0.010230300050033813Best Validation loss0.00641066120053986
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg20.csv
+Epoch9**Testing**(array([1.        , 0.52132701]), array([0.99298221, 1.        ]), array([0.99647875, 0.68535826]), array([14392,   110], dtype=int64))
+Best Epoch:8Best Training loss:0.01055787458037648Best Validation loss0.0076685785082037045
+
+###################################################################################################################################################################
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg1.csv
+Epoch 10 **Testing** (array([0.9986789 , 0.75833333]), array([0.99798499, 0.82727273]), array([0.99833183, 0.79130435]), array([14392,   110], dtype=int64))
+Best Epoch: 9Best Training loss: 0.03759153300618872Best Validation loss: 0.009542764940609535
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg2.csv
+Epoch 19 **Testing** (array([0.99900285, 0.20779221]), array([0.97456921, 0.87272727]), array([0.98663478, 0.33566434]), array([14392,   110], dtype=int64))
+Best Epoch: 18Best Training loss: 0.015477793011710064Best Validation loss: 0.0071190090294469864
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg3.csv
+Epoch 10 **Testing** (array([0.99900969, 0.2630137 ]), array([0.98130906, 0.87272727]), array([0.99008027, 0.40421053]), array([14392,   110], dtype=int64))
+Best Epoch: 9Best Training loss: 0.014307043925324019Best Validation loss: 0.010704767188678185
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg4.csv
+Epoch 13 **Testing** (array([0.99951352, 0.91150442]), array([0.99930517, 0.93636364]), array([0.99940933, 0.92376682]), array([14392,   110], dtype=int64))
+Best Epoch: 12Best Training loss: 0.005194343211519519Best Validation loss: 0.004205126483709767
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg5.csv
+Epoch 8 **Testing** (array([0.99764265, 0.96202532]), array([0.99979155, 0.69090909]), array([0.99871595, 0.8042328 ]), array([14392,   110], dtype=int64))
+Best Epoch: 7Best Training loss: 0.014585331533143812Best Validation loss: 0.016059009648355035
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg6.csv
+Epoch 13 **Testing** (array([0.99958115, 0.58757062]), array([0.99492774, 0.94545455]), array([0.99724902, 0.72473868]), array([14392,   110], dtype=int64))
+Best Epoch: 12Best Training loss: 0.00697828074322736Best Validation loss: 0.004767083537836487
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg7.csv
+Epoch 5 **Testing** (array([0.99972199, 0.92982456]), array([0.99944414, 0.96363636]), array([0.99958304, 0.94642857]), array([14392,   110], dtype=int64))
+Best Epoch: 4Best Training loss: 0.051489855888042044Best Validation loss: 0.026103248198827107
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg8.csv
+Epoch 18 **Testing** (array([0.99993032, 0.72666667]), array([0.9971512 , 0.99090909]), array([0.99853883, 0.83846154]), array([14392,   110], dtype=int64))
+Best Epoch: 17Best Training loss: 0.001608223026705329Best Validation loss: 0.0012309808491004837
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg9.csv
+Epoch 4 **Testing** (array([0.99949702, 0.17606838]), array([0.96650917, 0.93636364]), array([0.98272634, 0.29640288]), array([14392,   110], dtype=int64))
+Best Epoch: 3Best Training loss: 0.09108139166331038Best Validation loss: 0.04328906685113907
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg10.csv
+Epoch 7 **Testing** (array([0.99992945, 0.33231707]), array([0.98478321, 0.99090909]), array([0.99229854, 0.49771689]), array([14392,   110], dtype=int64))
+Best Epoch: 6Best Training loss: 0.036593943358735836Best Validation loss: 0.01168017021956898
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg11.csv
+Epoch 4 **Testing** (array([0.99964821, 0.3633218 ]), array([0.98721512, 0.95454545]), array([0.99339276, 0.52631579]), array([14392,   110], dtype=int64))
+Best Epoch: 3Best Training loss: 0.05366183265528463Best Validation loss: 0.014316413908575971
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg12.csv
+Epoch 5 **Testing** (array([0.99979084, 0.67295597]), array([0.99638688, 0.97272727]), array([0.99808596, 0.79553903]), array([14392,   110], dtype=int64))
+Best Epoch: 4Best Training loss: 0.019096391130872862Best Validation loss: 0.008118343173215787
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg13.csv
+Epoch 11 **Testing** (array([0.99993   , 0.50462963]), array([0.99256531, 0.99090909]), array([0.99623405, 0.66871166]), array([14392,   110], dtype=int64))
+Best Epoch: 10Best Training loss: 0.011495829055471278Best Validation loss: 0.005962267947016341
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg14.csv
+Epoch 4 **Testing** (array([0.99955354, 0.09783631]), array([0.93336576, 0.94545455]), array([0.96532643, 0.1773231 ]), array([14392,   110], dtype=int64))
+Best Epoch: 3Best Training loss: 0.041635339819588404Best Validation loss: 0.03691201359033584
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg15.csv
+Epoch 10 **Testing** (array([0.99937461, 0.90990991]), array([0.99930517, 0.91818182]), array([0.99933989, 0.91402715]), array([14392,   110], dtype=int64))
+Best Epoch: 9Best Training loss: 0.0024799202189550416Best Validation loss: 0.0030912249058989497
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg16.csv
+Epoch 4 **Testing** (array([0.99972094, 0.63095238]), array([0.99569205, 0.96363636]), array([0.99770243, 0.76258993]), array([14392,   110], dtype=int64))
+Best Epoch: 3Best Training loss: 0.031063933344062496Best Validation loss: 0.011181493584687511
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg17.csv
+Epoch 10 **Testing** (array([1.        , 0.35947712]), array([0.98638132, 1.        ]), array([0.99314398, 0.52884615]), array([14392,   110], dtype=int64))
+Best Epoch: 9Best Training loss: 0.00960405661942477Best Validation loss: 0.004542193623880545
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg18.csv
+Epoch 9 **Testing** (array([1.        , 0.83333333]), array([0.99847137, 1.        ]), array([0.9992351 , 0.90909091]), array([14392,   110], dtype=int64))
+Best Epoch: 8Best Training loss: 0.005028157477898977Best Validation loss: 0.0006882364469304405
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg19.csv
+Epoch 7 **Testing** (array([0.9999303 , 0.70779221]), array([0.99687326, 0.99090909]), array([0.99839944, 0.82575758]), array([14392,   110], dtype=int64))
+Best Epoch: 6Best Training loss: 0.013642301194165977Best Validation loss: 0.00342812535486051
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg20.csv
+Epoch 13 **Testing** (array([1.        , 0.54726368]), array([0.99367704, 1.        ]), array([0.99682849, 0.7073955 ]), array([14392,   110], dtype=int64))
+Best Epoch: 12Best Training loss: 0.006484246365009592Best Validation loss: 0.0026891766044382865
+
+##########################################################################################################################################
+
+
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg1.csv
+Epoch 13 **Testing** (array([0.99039532, 0.83067093]), array([0.98894989, 0.8496732 ]), array([0.98967208, 0.84006462]), array([14389,   918], dtype=int64))
+Best Epoch: 10 Best Training loss: 0.028761008673388024 Best Validation loss: 0.03420187187684247
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg2.csv
+Epoch 11 **Testing** (array([0.99329348, 0.51982379]), array([0.94697338, 0.89978214]), array([0.96958053, 0.65895493]), array([14389,   918], dtype=int64))
+Best Epoch: 8 Best Training loss: 0.03664515734366749 Best Validation loss: 0.04049788650432368
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg3.csv
+Epoch 11 **Testing** (array([0.99671902, 0.88696538]), array([0.99228577, 0.94880174]), array([0.99449746, 0.91684211]), array([14389,   918], dtype=int64))
+Best Epoch: 8 Best Training loss: 0.013895081414656651 Best Validation loss: 0.02078399522810854
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg4.csv
+Epoch 7 **Testing** (array([0.99854106, 0.98247536]), array([0.99888804, 0.97712418]), array([0.99871452, 0.97979246]), array([14389,   918], dtype=int64))
+Best Epoch: 4 Best Training loss: 0.02100629523679938 Best Validation loss: 0.018032936956132613
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg5.csv
+Epoch 10 **Testing** (array([0.99605236, 0.99193548]), array([0.99951352, 0.9379085 ]), array([0.99777994, 0.96416573]), array([14389,   918], dtype=int64))
+Best Epoch: 7 Best Training loss: 0.014372493451683904 Best Validation loss: 0.022002054599954957
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg6.csv
+Epoch 8 **Testing** (array([0.99805596, 0.98451327]), array([0.99902703, 0.96949891]), array([0.99854126, 0.97694841]), array([14389,   918], dtype=int64))
+Best Epoch: 5 Best Training loss: 0.021739323869806485 Best Validation loss: 0.017871479984493024
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg7.csv
+Epoch 9 **Testing** (array([0.99563772, 0.98843931]), array([0.99930502, 0.93137255]), array([0.997468  , 0.95905777]), array([14389,   918], dtype=int64))
+Best Epoch: 6 Best Training loss: 0.029419657554454314 Best Validation loss: 0.028653945481996932
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg8.csv
+Epoch 8 **Testing** (array([0.99916609, 0.98800436]), array([0.99923553, 0.9869281 ]), array([0.99920081, 0.98746594]), array([14389,   918], dtype=int64))
+Best Epoch: 5 Best Training loss: 0.00907355742495291 Best Validation loss: 0.010164936507491255
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg9.csv
+Epoch 13 **Testing** (array([0.99329948, 0.72896368]), array([0.97873375, 0.89651416]), array([0.98596282, 0.80410357]), array([14389,   918], dtype=int64))
+Best Epoch: 10 Best Training loss: 0.023389009744105602 Best Validation loss: 0.028870063639980608
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg10.csv
+Epoch 11 **Testing** (array([0.99579213, 0.81870229]), array([0.98679547, 0.93464052]), array([0.99127339, 0.87283825]), array([14389,   918], dtype=int64))
+Best Epoch: 8 Best Training loss: 0.02402808172583292 Best Validation loss: 0.022509257826540206
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg11.csv
+Epoch 8 **Testing** (array([0.99736166, 0.97345133]), array([0.99833206, 0.95860566]), array([0.99784662, 0.96597146]), array([14389,   918], dtype=int64))
+Best Epoch: 5 Best Training loss: 0.029833971735332972 Best Validation loss: 0.025759034679942235
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg12.csv
+Epoch 9 **Testing** (array([0.99847042, 0.96969697]), array([0.99805407, 0.97603486]), array([0.9982622 , 0.97285559]), array([14389,   918], dtype=int64))
+Best Epoch: 6 Best Training loss: 0.012710845225160907 Best Validation loss: 0.01464456779247124
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg13.csv
+Epoch 11 **Testing** (array([0.99735505, 0.93617021]), array([0.99583015, 0.95860566]), array([0.99659202, 0.94725511]), array([14389,   918], dtype=int64))
+Best Epoch: 8 Best Training loss: 0.010669101954208336 Best Validation loss: 0.01899271615276841
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg14.csv
+Epoch 11 **Testing** (array([0.99915074, 0.76975361]), array([0.98116617, 0.9869281 ]), array([0.99007679, 0.86491647]), array([14389,   918], dtype=int64))
+Best Epoch: 8 Best Training loss: 0.009069859404521792 Best Validation loss: 0.010660522340339571
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg15.csv
+Epoch 6 **Testing** (array([0.99944243, 0.94890511]), array([0.99659462, 0.9912854 ]), array([0.99801649, 0.96963239]), array([14389,   918], dtype=int64))
+Best Epoch: 3 Best Training loss: 0.011493567031246366 Best Validation loss: 0.012421746926021672
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg16.csv
+Epoch 8 **Testing** (array([0.9993726 , 0.94490644]), array([0.99631663, 0.99019608]), array([0.99784228, 0.96702128]), array([14389,   918], dtype=int64))
+Best Epoch: 5 Best Training loss: 0.014560308012153035 Best Validation loss: 0.009573405578492148
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg17.csv
+Epoch 7 **Testing** (array([0.99867817, 0.96355841]), array([0.99763708, 0.97930283]), array([0.99815735, 0.97136683]), array([14389,   918], dtype=int64))
+Best Epoch: 4 Best Training loss: 0.02089441241291554 Best Validation loss: 0.017872459573611138
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg18.csv
+Epoch 4 **Testing** (array([0.99972164, 0.97545358]), array([0.99840156, 0.9956427 ]), array([0.99906116, 0.98544474]), array([14389,   918], dtype=int64))
+Best Epoch: 1 Best Training loss: 0.032934318747087986 Best Validation loss: 0.01416949447124235
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg19.csv
+Epoch 7 **Testing** (array([0.9988861 , 0.95652174]), array([0.9971506 , 0.98257081]), array([0.9980176 , 0.96937131]), array([14389,   918], dtype=int64))
+Best Epoch: 4 Best Training loss: 0.018252538359197587 Best Validation loss: 0.0172770231601692
+
+vdjdb_trb_mhc1_scorethres1_hs_pos_neg20.csv
+Epoch 7 **Testing** (array([0.9990904 , 0.89162562]), array([0.99235527, 0.98583878]), array([0.99571145, 0.93636834]), array([14389,   918], dtype=int64))
+Best Epoch: 4 Best Training loss: 0.019234929824976817 Best Validation loss: 0.015165954822253797
+
