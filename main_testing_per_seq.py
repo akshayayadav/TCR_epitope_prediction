@@ -52,10 +52,10 @@ for model_part in range(1, 21):
 y_pred_majority = list()
 for idx in pred_dict:
     preds = pred_dict[idx]
-    if preds.count(1) > 18:
+    if preds.count(1) > 19:
         y_pred_majority.append(1)
     else:
         y_pred_majority.append(0)
 
-results_eval = precision_recall_fscore_support(test_vdj_epi_df['Class'].to_list(), y_pred_majority)
+results_eval = precision_recall_fscore_support(test_vdj_epi_df['Class'].to_list(), y_pred_majority, pos_label=1, average ='binary')
 print(results_eval)

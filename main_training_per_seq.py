@@ -6,7 +6,7 @@ from training.prepare_input_dataset import assign_embeddings
 from training.read_embeddings import read_h5py_embeddings, read_vdj_dataset_csv
 from training.model_per_seq import NeuralNetwork
 from training.utils import get_train_test_split, get_simple_train_test_split, get_positive_class_weight
-from sklearn.metrics import precision_recall_fscore_support
+from sklearn.metrics import precision_recall_fscore_support, average_precision_score
 import copy
 import warnings
 warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
@@ -16,7 +16,7 @@ vdjcdr3_emb_dict = read_h5py_embeddings("embeddings/T5_embeddings/score_thresh1/
 epi_emb_dict = read_h5py_embeddings("embeddings/T5_embeddings/score_thresh1/Epitope_embedding_per_seq.h5")
 
 
-for neg_part in range(1, 21):
+for neg_part in range(1, 6):
     dataset_file = "vdjdb_trb_mhc1_scorethres1_hs_pos_neg"+str(neg_part)+".csv"
     modelfile = "vdjdb_trb_mhc1_scorethres1_hs_per_seq"+str(neg_part)+".pth"
 
@@ -27,7 +27,12 @@ for neg_part in range(1, 21):
     print(vdj_epi_df.shape[0])
     print(vdj_epi_df['Class'].value_counts())
 
-    vdj_epi_df_train, vdj_epi_df_test = get_simple_train_test_split(vdj_epi_df, test_size=0.25)
+    vdj_epi_df_train, vdj_epi_df_test = get_simple_train_test_split(vdj_epi_df, test_size=0.10)
+    vdj_epi_df_train, vdj_epi_df_val = get_simple_train_test_split(vdj_epi_df_train, test_size=0.25)
+
+    print("Training data shape ", vdj_epi_df_train['Class'].value_counts())
+    print("Validation data shape ", vdj_epi_df_val['Class'].value_counts())
+    print("Test data shape ", vdj_epi_df_test['Class'].value_counts())
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print(device)
@@ -46,9 +51,10 @@ for neg_part in range(1, 21):
     batch_size = 500
     train_batch_len = 0
     min_val_loss = 999
-    no_improve_epoch_tol = 3
+    no_improve_epoch_tol = 5
     no_improve_epoch_count = 0
     val_loss_decrease_thresh = 0.01
+    results_dump = open("results_dump_per_seq.txt", "a")
     for e_i in range(0, epochs):
         epoch_train_loss = 0
         for batch_i in range(0, vdj_epi_df_train.shape[0], batch_size):
@@ -71,11 +77,11 @@ for neg_part in range(1, 21):
 
         model.eval()
         with torch.no_grad():
-            vdj_epi_X_test, vdj_epi_y_test = assign_embeddings(vdjcdr3_emb_dict, epi_emb_dict, vdj_epi_df_test)
+            vdj_epi_X_val, vdj_epi_y_val = assign_embeddings(vdjcdr3_emb_dict, epi_emb_dict, vdj_epi_df_val)
 
-            vdj_epi_X_test, vdj_epi_y_test = vdj_epi_X_test.to(device), vdj_epi_y_test.to(device)
-            vdj_epi_y_test_pred = model(vdj_epi_X_test)
-            epoch_val_loss = loss_fn(vdj_epi_y_test_pred.squeeze(), vdj_epi_y_test)
+            vdj_epi_X_val, vdj_epi_y_val = vdj_epi_X_val.to(device), vdj_epi_y_val.to(device)
+            vdj_epi_y_val_pred = model(vdj_epi_X_val)
+            epoch_val_loss = loss_fn(vdj_epi_y_val_pred.squeeze(), vdj_epi_y_val)
             epoch_val_loss = epoch_val_loss.item()
 
             if min_val_loss - epoch_val_loss > val_loss_decrease_thresh:
@@ -92,20 +98,34 @@ for neg_part in range(1, 21):
 
             if (no_improve_epoch_count == no_improve_epoch_tol) or (e_i == epochs-1):
                 print("**** Stopping *****", "Best Epoch:", best_epoch, "Best Training loss:", best_epoch_train_loss, "Best Validation loss", min_val_loss)
-                best_vdj_epi_y_test_pred = best_model(vdj_epi_X_test)
-                best_vdj_epi_y_test_pred = torch.sigmoid(best_vdj_epi_y_test_pred)
-                y_pred_test = best_vdj_epi_y_test_pred.squeeze().cpu().detach().numpy()
-                y_pred_test = np.where(y_pred_test >= 0.5, 1, 0)
+                best_vdj_epi_y_val_pred = best_model(vdj_epi_X_val)
+                y_true_val = vdj_epi_y_val.squeeze().cpu().detach().numpy()
+                best_vdj_epi_y_val_pred = torch.sigmoid(best_vdj_epi_y_val_pred)
+                y_pred_val = best_vdj_epi_y_val_pred.squeeze().cpu().detach().numpy()
+                avg_precision = average_precision_score(y_true_val, y_pred_val, pos_label=1)
+                y_pred_val = np.where(y_pred_val >= 0.5, 1, 0)
 
-                y_true_test = vdj_epi_y_test.squeeze().cpu().detach().numpy()
-                results_eval = precision_recall_fscore_support(y_true_test, y_pred_test)
+                results_eval = precision_recall_fscore_support(y_true_val, y_pred_val, pos_label=1, average='binary')
                 print(dataset_file, results_eval)
 
-                results_dump = open("results_dump_per_seq.txt", "a")
-                results_dump.write(dataset_file + "\n" + "Epoch " + str(e_i) + " **Testing** " + str(results_eval) + "\n")
-                results_dump.write("Best Epoch: " + str(best_epoch) + " Best Training loss: " + str(best_epoch_train_loss) + " Best Validation loss " + str(min_val_loss)+"\n\n")
-                results_dump.close()
+                results_dump.write(dataset_file + "\n" + "Epoch " + str(e_i) + " **Validation** " + str(results_eval) + "\n")
+                results_dump.write("Best Epoch: " + str(best_epoch) + " Best Training loss: " +
+                                   str(best_epoch_train_loss) + " Best Validation loss " + str(min_val_loss) +
+                                   " Average Precision " + str(avg_precision) + "\n")
 
                 torch.save(best_model.state_dict(), "saved_models/"+modelfile)
                 break
 
+    vdj_epi_X_test, vdj_epi_y_test = assign_embeddings(vdjcdr3_emb_dict, epi_emb_dict, vdj_epi_df_test)
+    vdj_epi_X_test, vdj_epi_y_test = vdj_epi_X_test.to(device), vdj_epi_y_test.to(device)
+    vdj_epi_y_test_pred = best_model(vdj_epi_X_test)
+    vdj_epi_y_test_pred = torch.sigmoid(vdj_epi_y_test_pred)
+
+    y_true_test = vdj_epi_y_test.squeeze().cpu().detach().numpy()
+    y_pred_test = vdj_epi_y_test_pred.squeeze().cpu().detach().numpy()
+    avg_precision_test = average_precision_score(y_true_test, y_pred_test, pos_label=1)
+
+    y_pred_test = np.where(y_pred_test >= 0.5, 1, 0)
+    results_test = precision_recall_fscore_support(y_true_test, y_pred_test, pos_label=1, average='binary')
+    results_dump.write("**Testing** " + str(results_test) + " Average Precision " + str(avg_precision_test) + "\n\n")
+    results_dump.close()
